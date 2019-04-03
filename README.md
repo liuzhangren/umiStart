@@ -1,12 +1,10 @@
-# 如何安装?
-- $ yarn global add umi
+# 如何使用?
+- $ yarn global add umi || npm install umi -g
 
 - $ umi -v //2.0
 
-- $ mkdir myapp && cd myapp
+- $ git clone 本repo地址
 
-- $ umi g page index
-
-- $ umi g page users
+- $ npm install || yarn 
 
 - $ umi dev(运行该指令即可跑起来)
