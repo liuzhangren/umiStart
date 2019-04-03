@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@inlet/react-pixi": "https://github.com/inlet/react-pixi.git",
+    "antd": "^3.15.2",
+    "pixi.js": "4.8.7"
+  }
+}
