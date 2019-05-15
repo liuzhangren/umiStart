@@ -8,19 +8,19 @@ let Router = DefaultRouter;
 
 let routes = [
   {
-    "path": "/components/avatarMore",
-    "exact": true,
-    "component": require('../components/avatarMore/index.js').default
-  },
-  {
     "path": "/",
     "exact": true,
     "component": require('../index.js').default
   },
   {
-    "path": "/users",
+    "path": "/demo1",
     "exact": true,
-    "component": require('../users.js').default
+    "component": require('../demo1/index.js').default
+  },
+  {
+    "path": "/count",
+    "exact": true,
+    "component": require('../count/index.js').default
   },
   {
     "component": () => React.createElement(require('/Users/zhangrenliu/.config/yarn/global/node_modules/umi-build-dev/lib/plugins/404/NotFound.js').default, { pagesPath: 'pages', hasRoutesInConfig: false })
